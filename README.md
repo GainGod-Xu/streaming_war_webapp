@@ -1,5 +1,5 @@
 # Dockerized Java Service
-This repository is using CS6310 A6 starter code and it contains two Docker separate service to demonstrate how we may deploy a separate service for an application server and a front end service. 
+This repository contains two Docker separate service to demonstrate how we may deploy a separate service for an application server and a front end service. 
 It is using Java backend that uses [Spring Boot](https://spring.io/projects/spring-boot) as our web service framework, and an [nginx](https://www.nginx.com/) web server that serves our html file.
 For your convenience we have defined a [docker-compose](https://docs.docker.com/compose/) file to help define our application and orchestrate the deployment locally, as well as a [Makefile](https://www.gnu.org/software/make/manual/make.html) that effectively wraps some build commands for you.
 
